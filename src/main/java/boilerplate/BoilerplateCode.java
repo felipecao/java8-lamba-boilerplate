@@ -1,6 +1,6 @@
 package boilerplate;
 
-public interface AvoidBoilerplate
+public interface BoilerplateCode
 {
     void executeBusinessLogic(String somethingToLog, Runnable businessLogic);
 }

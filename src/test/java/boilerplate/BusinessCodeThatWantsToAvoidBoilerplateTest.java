@@ -8,12 +8,12 @@ import static org.mockito.Mockito.*;
 public class BusinessCodeThatWantsToAvoidBoilerplateTest
 {
     BusinessCodeThatWantsToAvoidBoilerplate businessCode;
-    AvoidBoilerplate boilerplateContainerSpy;
+    BoilerplateCode boilerplateContainerSpy;
     Dependency dependencyMock;
 
     @Before
     public void setup() {
-        boilerplateContainerSpy = spy(new FakeAvoidBoilerplate());
+        boilerplateContainerSpy = spy(new FakeBoilerplateCode());
         dependencyMock = mock(Dependency.class);
 
         businessCode = new BusinessCodeThatWantsToAvoidBoilerplate(boilerplateContainerSpy, dependencyMock);

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="boilerplate.BusinessCodeThatWantsToAvoidBoilerplateTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-05-25T09:20:48" hostname="Felipes-MacBook-Pro-2.local" time="0.096">
+  <properties/>
+  <testcase name="testIt" classname="boilerplate.BusinessCodeThatWantsToAvoidBoilerplateTest" time="0.096"/>
+  <system-out><![CDATA[Executing FakeBoilerplateCode$$EnhancerByMockitoWithCGLIB$$73f32405 instead of actual business implementation
+This is my business logic
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

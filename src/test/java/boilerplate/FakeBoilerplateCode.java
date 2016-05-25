@@ -1,6 +1,6 @@
 package boilerplate;
 
-public class FakeAvoidBoilerplate implements AvoidBoilerplate
+public class FakeBoilerplateCode implements BoilerplateCode
 {
     @Override
     public void executeBusinessLogic(String somethingToLog, Runnable businessLogic)

@@ -2,10 +2,10 @@ package boilerplate;
 
 public class BusinessCodeThatWantsToAvoidBoilerplate
 {
-    AvoidBoilerplate boilerplate;
+    BoilerplateCode boilerplate;
     Dependency dependency;
 
-    public BusinessCodeThatWantsToAvoidBoilerplate(AvoidBoilerplate boilerplate, Dependency dependency)
+    public BusinessCodeThatWantsToAvoidBoilerplate(BoilerplateCode boilerplate, Dependency dependency)
     {
         this.boilerplate = boilerplate;
         this.dependency = dependency;
