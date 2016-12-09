@@ -15,6 +15,7 @@ public class BusinessCodeThatWantsToAvoidBoilerplate
         boilerplate.executeBusinessLogic("Starting my business logic", () -> {
             System.out.println("This is my business logic");
             dependency.doSomething();
+            return Void.TYPE;
         });
     }
 

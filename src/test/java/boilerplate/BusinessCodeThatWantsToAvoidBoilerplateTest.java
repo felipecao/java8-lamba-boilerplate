@@ -3,6 +3,8 @@ package boilerplate;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.function.Supplier;
+
 import static org.mockito.Mockito.*;
 
 public class BusinessCodeThatWantsToAvoidBoilerplateTest
@@ -23,7 +25,7 @@ public class BusinessCodeThatWantsToAvoidBoilerplateTest
     public void testIt() {
         businessCode.executeBusinessLogic();
 
-        verify(boilerplateContainerSpy, times(1)).executeBusinessLogic(eq("Starting my business logic"), any(Runnable.class));
+        verify(boilerplateContainerSpy, times(1)).executeBusinessLogic(eq("Starting my business logic"), any(Supplier.class));
         verify(dependencyMock, times(1)).doSomething();
     }
 
